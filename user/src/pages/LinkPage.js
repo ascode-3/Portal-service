@@ -341,7 +341,7 @@ const LinkPage = () => {
       id: 1, 
       title: '충격량 시뮬레이션', 
       description: '물리 시뮬레이션을 통해 충격량을 체험해보세요',
-      url: 'https://ascode33.netlify.app/',
+      url: 'https://wonderful-tulumba-c5d855.netlify.app/',
       image: '/images/physics images.png',
       // 추가 →
       category: '물리학',
