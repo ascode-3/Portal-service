@@ -257,7 +257,7 @@ const LinkModal = ({ isOpen, onClose, link, onConfirm }) => {
                 textTransform: 'uppercase',
                 letterSpacing: '0.5px'
               }}>
-                난이도
+                난도
               </div>
             </div>
           </div>
@@ -340,50 +340,57 @@ const LinkPage = () => {
     { 
       id: 1, 
       title: '충격량 시뮬레이션', 
-      description: '물리 시뮬레이션을 통해 충격량을 체험해보세요',
+      description: '제시된 3개의 물리 미션을 시뮬레이션으로 해결해 목표 조건을 충족하세요.',
       url: 'https://wonderful-tulumba-c5d855.netlify.app/',
       image: '/images/physics images.png',
       // 추가 →
       category: '물리학',
-      playTime: '5분 이내',
-      difficulty: '중',
-      detailDescription: '충격량과 운동량의 관계를 시뮬레이션으로 체험할 수 있습니다'
+      playTime: '2분 이내',
+      difficulty: '하',
+      detailDescription: '제시된 3개의 물리 미션을 시뮬레이션으로 해결해 목표 조건을 충족하세요.'
     },
     { 
       id: 2, 
       title: '지구 테트리스', 
-      description: '지구를 주제로 한 재미있는 테트리스 게임',
+      description: '태양계를 여행하며 각 행성의 개성을 가진 방해효과를 견뎌 25줄을 완성하세요.',
       url: 'https://and-tetris.web.app/',
       image: '/images/150641.png',
       // 추가 →
       category: '지구과학',
-      playTime: '4분 이내',
+      playTime: '5분 이내',
       difficulty: '상',
-      detailDescription: '지구를 주제로 한 재미있는 테트리스 게임'
+      detailDescription: '태양계를 여행하며 각 행성의 개성을 가진 방해효과를 견뎌 25줄을 완성하세요.'
     },
     { 
       id: 3, 
-      title: '원자 실험실', 
-      description: '원자 키우기를 체험해보세요',
-      url: 'https://word-frame.web.app/',
+      title: '태양계 합치기', 
+      description: '행성을 합치며 크기를 키워, 최종 단계인 목성까지 성장시키세요.',
+      url: 'https://teal-souffle-6db1ec.netlify.app',
       image: '/images/KakaoTalk_222.png',
       // 추가 →
-      category: '화학',
-      playTime: '3분 이내',
-      difficulty: '하',
-      detailDescription: '원자 모형을 직접 만들어보고 원자의 구조를 학습합니다'
+      category: '지구과학',
+      playTime: '4분 이내',
+      difficulty: '중',
+      detailDescription: '행성을 합치며 크기를 키워, 최종 단계인 목성까지 성장시키세요.'
     },
     { 
       id: 4, 
       title: '원자 키우기', 
-      description: '원자를 먹고 살아남으세요!',
-      url: 'webrun:"C:\\html WebRun\\game\\game.exe"',
+      description: `
+      자신보다 작은 원자를 흡수해
+      H → He → C → Si → Fe 순으로 진화하며
+      최종 단계인 철(Fe)까지 성장하세요.`,
+      url: 'webrun:"C:\\WebRun\\game\\games.exe"',
       image: '/images/KakaoTalk_111.png',
       // 추가 →
       category: '화학',
-      playTime: '10분 이내',
+      playTime: '4분 이내',
       difficulty: '중',
-      detailDescription: '원자를 먹고 성장하면서 원소의 주기율표를 학습합니다'
+      detailDescription: `
+      자신보다 작은 원자를 흡수해
+      H → He → C → Si → Fe 순으로 진화하며
+      최종 단계인 철(Fe)까지 성장하세요.
+      `
     }
   ]);
 
