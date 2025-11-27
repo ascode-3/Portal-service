@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Portal-service/static/js/main.9b986f67.js",
+    "main.js": "/Portal-service/static/js/main.1f6bc962.js",
     "index.html": "/Portal-service/index.html",
-    "main.9b986f67.js.map": "/Portal-service/static/js/main.9b986f67.js.map"
+    "main.1f6bc962.js.map": "/Portal-service/static/js/main.1f6bc962.js.map"
   },
   "entrypoints": [
-    "static/js/main.9b986f67.js"
+    "static/js/main.1f6bc962.js"
   ]
 }
